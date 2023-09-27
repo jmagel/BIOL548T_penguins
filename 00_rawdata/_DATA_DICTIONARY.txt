@@ -1,0 +1,25 @@
+
+DATA DICTIONARY for 'penguins.csv'
+
+Date created: 2023-09-26 (by Jennifer Magel)
+Last updated: 2023-09-06 (by Jennifer Magel)
+
+DESCRIPTION OF THE DATA
+
+The 'penguins.csv' data frame was obtained from the 'palmerpenguins' R package, version 0.1.0. This data frame contains information on morphometric
+variables (bill length, bill depth, flipper length) for three species of penguins (Adelie, Chinstrap, Gentoo) measured on the Palmer Archipelago,
+Antarctica. The data was originally collected by Dr. Kristen Gorman as part of the Palmer Station Long-Term Ecological Research initiative. For 
+more information on this dataset, see the following link: https://allisonhorst.github.io/palmerpenguins/
+
+VARIABLES
+
+The data frame contains the following variables (note that each row in the data frame pertains to an individual penguin that was measured):
+
+* species – ...; factor with three levels (Adelie, Chinstrap, Gentoo)
+* island – ...; factor with three levels (Biscoe, Dream, 
+* bill_length_mm – length of ... (in mm); numeric
+* bill_depth_mm – depth of ... (in mm); numeric
+* flipper_depth_mm – length of ... (in mm); integer
+* body_mass_g – mass of the individual penguin (in g); integer
+* sex – sex of the individual; factos with two levels (female, male)
+* year – year when the measurements were taken; integer ()
