@@ -2,7 +2,7 @@
 DATA DICTIONARY for 'penguins.csv'
 
 Date created: 2023-09-26 (by Jennifer Magel)
-Last updated: 2023-09-06 (by Jennifer Magel)
+Last updated: 2023-09-27 (by Jennifer Magel)
 
 DESCRIPTION OF THE DATA
 
@@ -15,11 +15,14 @@ VARIABLES
 
 The data frame contains the following variables (note that each row in the data frame pertains to an individual penguin that was measured):
 
-* species – ...; factor with three levels (Adelie, Chinstrap, Gentoo)
-* island – ...; factor with three levels (Biscoe, Dream, 
-* bill_length_mm – length of ... (in mm); numeric
-* bill_depth_mm – depth of ... (in mm); numeric
-* flipper_depth_mm – length of ... (in mm); integer
-* body_mass_g – mass of the individual penguin (in g); integer
-* sex – sex of the individual; factos with two levels (female, male)
-* year – year when the measurements were taken; integer ()
+* species – penguin species; factor with three levels (Adelie, Chinstrap, Gentoo)
+* island – island in the Palmer Archipelago, Antarctica; factor with three levels (Biscoe, Dream, Torgersen)
+* bill_length_mm – bill length (in mm); numeric
+* bill_depth_mm – bill depth (in mm); numeric
+* flipper_length_mm – flipper length (in mm); integer
+* body_mass_g – body mass (in g); integer
+* sex – sex of the individual; factor with two levels (female, male)
+* year – study year; integer (2007, 2008, 2009)
+
+For a visual showing how bill length and bill depth were measured, see the following link:
+https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png.
