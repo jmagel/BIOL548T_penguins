@@ -1,0 +1,148 @@
+---
+title           : "Pre-registration for 'Everybody loves penguins! Relationships between bill and flipper length in three species of penguins from the Palmer Archipelago, Antarctica'"
+# shorttitle      : "My preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : Jennifer Magel
+    affiliation : 1
+
+affiliation:
+  - id          : 1
+    institution : Department of Forest & Conservation Sciences, University of British Columbia, Vancouver, Canada
+
+output: prereg::prereg_pdf
+---
+
+# Study Information
+
+## Title
+
+Everybody loves penguins! Relationships between bill and flipper length in three species of penguins from the Palmer Archipelago, Antarctica
+
+
+## Description
+
+Although it is well known that sizes of different body parts are generally correlated within individuals (e.g., individuals with longer legs also tend to have longer arms), apparently no one has examined whether this relationship holds in Antarctic penguins. Therefore, we will examine relationships between bill length and flipper length in three species of penguins from the Palmer Archipelago, Antarctica to see whether Antarctic penguins also exhibit this seemingly universal phenomenon. 
+
+It is also currently unknown whether morphometrics vary among sub-populations of penguins found on different Antarctic Islands. Therefore, we will examine differences in bill length among Adelie penguins found on three different islands in the Palmer Archipelago.
+
+
+## Hypotheses
+
+H1: All three species of penguin will exhibit a significant positive relationship between bill length and flipper length.
+
+H2: There will be no significant difference in mean bill length between Adelie penguins from Biscoe, Dream, and Torgersen Islands.
+
+
+# Design Plan
+
+## Study type
+
+**Observational Study**. Data were collected from individual penguins that happened to be encountered on the three study islands in the Palmer Archipelago.
+
+
+## Blinding
+
+No blinding is involved in this study.
+
+
+## Study design
+
+N/A (use of pre-existing dataset; see below)
+
+
+## Randomization
+
+Randomization is not applicable to this study.
+
+
+# Sampling Plan
+
+## Existing data
+
+**Registration prior to analysis of the data**. As of the date of submission, the data exist and have been accessed, though no analysis has been conducted related to the research plan (including calculation of summary statistics).
+
+
+## Explanation of existing data
+
+Data were collected by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER (Gorman et al. 2014). Individuals of three species of penguins (Adelie: _Pygoscelis adeliae_, Chinstrap: _Pygoscelis antarcticus_, Gentoo: _Pygoscelis papua_) were measured on three islands (Biscoe, Dream, Torgerson) in the Palmer Archipelago, Antarctica in the austral summers of 2007/08, 2008/09, and 2009/10. Data was accessed using the 'palmerpenguins' R package version 0.1.1.
+
+
+## Data collection procedures
+
+N/A (use of pre-existing dataset; see above)
+
+
+## Sample size
+
+The data set includes information and measurements for 344 individual penguins.
+
+
+## Sample size rationale
+
+N/A (use of pre-existing dataset)
+
+
+## Stopping rule
+
+N/A (use of pre-existing dataset)
+
+
+
+# Variables
+
+## Manipulated variables
+
+N/A (observational study)
+
+
+## Measured variables
+
+The dataset includes information on the following measured variables:  
+species – penguin species (Adelie, Chinstrap, Gentoo)  
+island – island in the Palmer Archipelago, Antarctica (Biscoe, Dream, Torgersen)  
+bill_length_mm – bill length (in mm)  
+bill_depth_mm – bill depth (in mm)  
+flipper_length_mm – flipper length (in mm)  
+body_mass_g – body mass (in g)  
+sex – sex of the individual (female, male)  
+year – study year (2007, 2008, 2009)  
+
+
+## Indices
+
+No indices will be used.
+
+
+# Analysis Plan
+
+## Statistical models
+
+Relationships between bill length and flipper length for each species of penguin will be tested using linear regressions run using the lm() function from the 'stats' package in R. Differences in bill length between sub-populations of Adelie penguins from different islands will be tested using an ANOVA, run using the aov() function in the 'stats' package.
+
+
+## Transformations
+
+No data transformation will be required.
+
+
+## Inference criteria
+
+Significance relationships between variables, and significant differences between sub-populations, will be detected using p-values (p > 0.05).
+
+
+## Data exclusion
+
+All data will be included in the analysis.
+
+
+## Missing data
+
+As the dataset only contains individuals for which measurement data was obtained, all individuals will be included in the analysis.
+
+
+## Exploratory analyses (optional)
+
+No exploratory analyses are planned.
+
