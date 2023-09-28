@@ -11,8 +11,7 @@
 
 #################
 
-# Install and load 'palmerpenguins' R package
-install.packages("palmerpenguins")
+# Load 'palmerpenguins' package
 library(palmerpenguins)
 
 # Load data frames from 'palmerpenguins' package
