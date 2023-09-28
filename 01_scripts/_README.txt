@@ -2,7 +2,7 @@
 README for '01_scripts' directory
 
 Date created: 2023-09-27 (by Jennifer Magel)
-Last updated: 2023-09-27 (by Jennifer Magel)
+Last updated: 2023-09-28 (by Jennifer Magel)
 
 DIRECTORY INFORMATION
 

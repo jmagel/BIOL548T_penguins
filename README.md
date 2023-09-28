@@ -1,7 +1,7 @@
 # BIOL548T_penguins
 
 **Date created:** 2023-09-07 (by Jennifer Magel)  
-**Date last updated:** 2023-09-27 (by Jennifer Magel)
+**Date last updated:** 2023-09-28 (by Jennifer Magel)
 
 ## Description
 This repository contains all files (data, scripts, manuscript, etc.) pertaining to a reproducible mini-project completed as part of the BIOL 548T 'Productivity and Reproducibility in Ecology and Evolution' course at UBC. The project examines simple relationships between various morphometric variables (bill length, flipper length) for three species of penguins (Adelie, _Pygoscelis adeliae_; Chinstrap, _Pygoscelis antarcticus_; Gentoo, _Pygoscelis papua_) using data provided through the 'palmerpenguins' package in R.
