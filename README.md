@@ -13,3 +13,4 @@ This repository is composed of the following directories. Please see each direct
 * **01_scripts** – Contains scripts to download and save the data and to produce the manuscript figures.  
 * **02_figures** – Contains .jpg versions of the manuscript figures.  
 * **03_manuscript** – Contains a PDF version of the manuscript and all files required to produce the PDF using Rmarkdown.
+* **99_preregistration** – Contains a PDF version of the study preregistration and the .Rmd document used to produce the file.
