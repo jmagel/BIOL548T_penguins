@@ -14,3 +14,10 @@ This repository is composed of the following directories. Please see each direct
 * **02_figures** – Contains .jpg versions of the manuscript figures.  
 * **03_manuscript** – Contains a PDF version of the manuscript and all files required to produce the PDF using Rmarkdown.
 * **99_preregistration** – Contains a PDF version of the study preregistration and the .Rmd document used to produce the file.
+* **renv** – Contains files necessary for package management within the R project.
+
+## Additional files
+The main (root) directory contains the following additional files:
+
+* **BIOL548T_penguins.Rproj** – R project file
+* **renv.lock** – Saves a 'snapshot' of the packages and their versions associated with the R project.
