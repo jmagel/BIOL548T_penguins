@@ -52,16 +52,17 @@ dev.off()
 
 # Create plot
 p2 <- penguins %>% 
-  filter(species == "Adelie") %>%                               # filter 'penguins' data frame for only Adelie penguins
-  ggplot(., aes(island, bill_length_mm)) +                      # specify data
-  geom_boxplot(aes(fill = island)) +                            # add boxplot (coloured by island)
-  xlab("Island") + ylab("Bill length (mm)") +                   # rename axis labels
-  scale_fill_manual(values = c("#99CCFF", "#006699", "cyan3"))  # specify box colours
+  filter(species == "Adelie") %>%                                 # filter 'penguins' data frame for only Adelie penguins
+  ggplot(., aes(island, bill_length_mm)) +                        # specify data
+  geom_boxplot(aes(fill = island)) +                              # add boxplot (coloured by island)
+  xlab("Island") + ylab("Bill length (mm)") +                     # rename axis labels
+  scale_fill_manual(values = c("#99CCFF", "#006699", "cyan3")) +  # specify box colours
+  theme(legend.position = "none")
 
 
 # Save plot as a jpeg
 jpeg(filename = "02_figures/figure_02.jpg",
-     width = 5, height = 4, units = "in", res = 300)
+     width = 4, height = 4, units = "in", res = 300)
 
 p2
 
