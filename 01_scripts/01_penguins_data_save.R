@@ -5,7 +5,7 @@
 
 # Creator: Jennifer Magel
 # Creation date: 2023-09-26
-# Last updated: 2023-09-26
+# Last updated: 2023-09-28
 
 # Description: Script to extract and save necessary data from the 'palmerpenguins' R package
 
